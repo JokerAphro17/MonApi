@@ -1,7 +1,7 @@
 const mangoose = require("mongoose");
 
 mangoose.connect(
-  "mongodb://localhost:27017/nodeapi",
+  "mongodb://localhost:27017/nodeApi",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
